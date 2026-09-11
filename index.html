@@ -146,8 +146,8 @@
     // ចាប់ផ្ដើមទំព័រភ្លាម Random សំណួរ
     window.onload = function() {
       // Shuffle យក ៥០ សំណួរ (ឬយកតាមចំនួនដែលមាន)
-      var shuffled = [...questionPool].sort(() => 0.5 - Math.random());
-      activeQuestions = shuffled.slice(0, 50);
+      var shuffled = [...questionPool].sort(() => 0.4 - Math.random());
+      activeQuestions = shuffled.slice(0, 40);
       renderQuiz(activeQuestions);
     };
 
